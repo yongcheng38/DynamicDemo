@@ -1,0 +1,122 @@
+# 开发环境配置
+server:
+  # 服务器的HTTP端口，默认为80
+  port: 8095
+  servlet:
+    # 应用的访问路径
+    context-path: /Dynamic/
+  tomcat:
+    # tomcat的URI编码
+    uri-encoding: UTF-8
+    threads:
+      # tomcat最大线程数，默认为200
+      max: 800
+      # Tomcat启动初始化的线程数，默认值25
+      min-spare: 30
+
+# 日志配置
+logging:
+# config: classpath:logback-spring.xml
+  level:
+    org.springframework: info
+    com.kanq.process: debug
+  file:
+    name: D:/logs/dynamic.log
+    max-size: 500MB
+
+# Spring配置
+spring:
+  mail:
+    sender: 1361840527@qq.com
+    host: smtp.qq.com
+    port: 587
+    username: 1361840527@qq.com
+    password: dzxmnxzbhpqvghhd
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+  # 模板引擎
+  thymeleaf:
+    # 禁用缓存
+    cache: false
+
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  #配置激活那个配置文件
+  profiles:
+     active: active
+  # 文件上传
+  servlet:
+     multipart:
+       # 单个文件大小
+       max-file-size:  10MB
+       # 设置总上传的文件大小
+       max-request-size:  20MB
+
+  # 服务模块
+  devtools:
+    restart:
+      # 热部署开关
+      enabled: true
+      freemarker:
+        cache: false    #页面不加载缓存，修改即时生效
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password:      # 密码（默认为空）
+    timeout: 6000  # 连接超时时长（毫秒）
+    jedis:
+      pool:
+        max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）
+        max-wait: -1ms    # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-idle: 10      # 连接池中的最大空闲连接
+        min-idle: 5       # 连接池中的最小空闲连接
+
+# token配置
+token:
+  # 令牌自定义标识
+  header: token
+  # 令牌秘钥
+  secret: abcdefghijklmnopqrstuvwxyz
+  # 令牌有效期（默认30分钟）
+  expireTime: 30
+# MyBatis
+mybatis:
+    # 配置mapper的扫描，找到所有的mapper.xml映射文件
+    mapperLocations: classpath*:mapper/**/*.xml
+    # 加载全局的配置文件
+    configLocation: classpath:config/mybatis-config.xml
+
+# PageHelper分页插件
+pagehelper: 
+  helperDialect: oracle
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+filePath: F:/Dowload/
+
+netServer:
+   ip: 119.97.193.71
+   port: 5001
+
+#mybatis-plus:
+#  config-location: classpath:config/mybatis-config.xml
+#  mapper-locations: classpath*:mapper/**/*.xml
+#  configuration:
+    # 是否开启自动驼峰命名规则映射:从数据库列名到Java属性驼峰命名的类似映射
+#    map-underscore-to-camel-case: true
+    # 返回map时true:当查询数据为空时字段返回为null,false:不加这个查询数据为空时，字段将被隐藏
+#    call-setters-on-nulls: true
+    # 这个配置会将执行的sql打印出来，在开发或测试的时候可以用
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+      # 解决oracle更新数据为null时无法转换报错，mysql不会出现此情况
+#    jdbc-type-for-null: 'null'

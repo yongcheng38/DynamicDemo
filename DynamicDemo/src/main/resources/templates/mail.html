@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>程序异常通知</title>
+</head>
+<body>
+<span>尊敬的用户：</span>
+<br>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你好!系统在<span th:text="${errorDate}"></span>执行操作出现异常，异常描述如下：</span>
+<br>
+<span>注解说明: </span><span th:text="${logDescription}"></span>
+<span>。<br>异常类: </span><span th:text="${targetName}"></span>
+<span>。<br>异常方法: </span><span th:text="${methodName}"></span>
+<span>。<br>传入参数: </span><span th:text="${params}"></span>
+<span>。<br>异常信息: </span><span th:text="${errorInfo}"></span>
+<span>。<br>堆栈跟踪: </span><span th:text="${stackTrace}"></span>
+<span>。<br>请及时处理! </span>
+
+</body>
+</html>

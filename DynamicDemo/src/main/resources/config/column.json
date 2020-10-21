@@ -1,0 +1,618 @@
+{
+  "101": [
+    {
+      "name": "地表裂缝计",
+      "jcdw": "mm(毫米) ",
+      "column": "JCSJ101A030",
+      "zbbm": "value"
+    }
+  ],
+  "102": [
+    {
+      "name": "墙裂缝计",
+      "jcdw": "mm(毫米) ",
+      "column": "JCSJ102A030",
+      "zbbm": "value"
+    }
+  ],
+  "103": [
+    {
+      "name": "加速度计",
+      "jcdw": "°(度)",
+      "column": "JCSJ103A030",
+      "zbbm": "X"
+    },
+    {
+      "name": "加速度计",
+      "jcdw": "°(度)",
+      "column": "JCSJ103A031",
+      "zbbm": "Y"
+    },
+    {
+      "name": "加速度计",
+      "jcdw": "°(度)",
+      "column": "JCSJ103A032",
+      "zbbm": "Z"
+    },
+    {
+      "name": "加速度计",
+      "jcdw": "mg(加速度值)",
+      "column": "JCSJ103A033",
+      "zbbm": "gX"
+    },
+    {
+      "name": "加速度计",
+      "jcdw": "mg(加速度值)",
+      "column": "JCSJ103A034",
+      "zbbm": "gY"
+    },
+    {
+      "name": "加速度计",
+      "jcdw": "mg(加速度值)",
+      "column": "JCSJ103A035",
+      "zbbm": "gZ"
+    }
+  ],
+  "104": [
+    {
+      "name": "泥位计",
+      "jcdw": "m(米)",
+      "column": "JCSJ104A030",
+      "zbbm": "value"
+    }
+  ],
+  "105": [
+    {
+      "name": "预警喇叭"
+    }
+  ],
+  "106": [
+    {
+      "name": "微芯桩",
+      "jcdw": "°(度)",
+      "column": "JCSJ106A030",
+      "zbbm": "angle"
+    },
+    {
+      "name": "微芯桩",
+      "jcdw": "°(度)",
+      "column": "JCSJ106A031",
+      "zbbm": "trend"
+    },
+    {
+      "name": "微芯桩",
+      "jcdw": "mg(加速度值)",
+      "column": "JCSJ106A032",
+      "zbbm": "glmpact"
+    },
+    {
+      "name": "微芯桩",
+      "jcdw": "mg(加速度值)",
+      "column": "JCSJ106A033",
+      "zbbm": "gX"
+    },
+    {
+      "name": "微芯桩",
+      "jcdw": "mg(加速度值)",
+      "column": "JCSJ106A034",
+      "zbbm": "gY"
+    },
+    {
+      "name": "微芯桩",
+      "jcdw": "mg(加速度值)",
+      "column": "JCSJ106A035",
+      "zbbm": "gZ"
+    }
+  ],
+  "201": [
+    {
+      "name": "雨量计",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ201A030",
+      "zbbm": "value"
+    }
+  ],
+  "202": [
+    {
+      "name": "土壤含水率",
+      "jcdw": "%(百分比)",
+      "column": "JCSJ202A030",
+      "zbbm": "value"
+    }
+  ],
+  "203": [
+    {
+      "name": "裂缝计",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ203A030",
+      "zbbm": "value"
+    }
+  ],
+  "204": [
+    {
+      "name": "GNSS结果数据",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ204A030",
+      "zbbm": "X"
+    },
+    {
+      "name": "GNSS结果数据",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ204A031",
+      "zbbm": "Y"
+    },
+    {
+      "name": "GNSS结果数据",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ204A032",
+      "zbbm": "Z"
+    }
+  ],
+  "205": [
+    {
+      "name": "GNSS"
+    }
+  ],
+  "206": [
+    {
+      "name": "倾角计",
+      "jcdw": "°(度)",
+      "column": "JCSJ206A030",
+      "zbbm": "X"
+    },
+    {
+      "name": "倾角计",
+      "jcdw": "°(度)",
+      "column": "JCSJ206A031",
+      "zbbm": "Y"
+    },
+    {
+      "name": "倾角计",
+      "jcdw": "°(度)",
+      "column": "JCSJ206A032",
+      "zbbm": "Z"
+    }
+  ],
+  "207": [
+    {
+      "name": "水压力",
+      "jcdw": "kPa(千帕)",
+      "column": "JCSJ207A030",
+      "zbbm": "value"
+    },
+    {
+      "name": "水压力",
+      "jcdw": "℃(摄氏度)",
+      "column": "JCSJ207A031",
+      "zbbm": "temp"
+    }
+  ],
+  "208": [
+    {
+      "name": "次声",
+      "jcdw": "Hz(赫兹)",
+      "column": "JCSJ208A030",
+      "zbbm": "value"
+    }
+  ],
+  "209": [
+    {
+      "name": "土压力计",
+      "jcdw": "kPa(千帕)",
+      "column": "JCSJ209A030",
+      "zbbm": "value"
+    }
+  ],
+  "210": [
+    {
+      "name": "振弦式应力计",
+      "jcdw": "kN(千牛)",
+      "column": "JCSJ210A030",
+      "zbbm": "value"
+    }
+  ],
+  "211": [
+    {
+      "name": "地表位移",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ211A030",
+      "zbbm": "value"
+    }
+  ],
+  "212": [
+    {
+      "name": "深部位移",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ212A030",
+      "zbbm": "X"
+    },
+    {
+      "name": "深部位移",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ212A031",
+      "zbbm": "Y"
+    },
+    {
+      "name": "深部位移",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ212A032",
+      "zbbm": "Z"
+    }
+  ],
+  "213": [
+    {
+      "name": "倾斜仪",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ213A030",
+      "zbbm": "value"
+    }
+  ],
+  "214": [
+    {
+      "name": "地下水水位",
+      "jcdw": "℃(摄氏度)",
+      "column": "JCSJ214A030",
+      "zbbm": "Temp"
+    },
+    {
+      "name": "地下水水位",
+      "jcdw": "m(米)",
+      "column": "JCSJ214A031",
+      "zbbm": "value"
+    }
+  ],
+  "215": [
+    {
+      "name": "多点位移",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ215A030",
+      "zbbm": "X"
+    },
+    {
+      "name": "多点位移",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ215A031",
+      "zbbm": "Y"
+    },
+    {
+      "name": "多点位移",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ215A032",
+      "zbbm": "Z"
+    }
+  ],
+  "216": [
+    {
+      "name": "渗压计",
+      "jcdw": "kPa(千帕)",
+      "column": "JCSJ216A030",
+      "zbbm": "value"
+    }
+  ],
+  "217": [
+    {
+      "name": "流速仪",
+      "jcdw": "m/s(米/秒)",
+      "column": "JCSJ217A030",
+      "zbbm": "value"
+    }
+  ],
+  "218": [
+    {
+      "name": "气温",
+      "jcdw": "℃(摄氏度)",
+      "column": "JCSJ218A030",
+      "zbbm": "value"
+    }
+  ],
+  "219": [
+    {
+      "name": "TDR变形计",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ219A030",
+      "zbbm": "value"
+    }
+  ],
+  "220": [
+    {
+      "name": "泉水流量",
+      "jcdw": "m/s(立方米/秒)",
+      "column": "JCSJ220A030",
+      "zbbm": "value"
+    }
+  ],
+  "221": [
+    {
+      "name": "沉降仪",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ221A030",
+      "zbbm": "value"
+    }
+  ],
+  "222": [
+    {
+      "name": "钻孔测斜仪",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ222A030",
+      "zbbm": "X"
+    },
+    {
+      "name": "钻孔测斜仪",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ222A031",
+      "zbbm": "Y"
+    }
+  ],
+  "223": [
+    {
+      "name": "土壤温度",
+      "jcdw": "℃(摄氏度)",
+      "column": "JCSJ223A030",
+      "zbbm": "value"
+    }
+  ],
+  "224": [
+    {
+      "name": "倾角",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ224A030",
+      "zbbm": "X"
+    },
+    {
+      "name": "倾角",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ224A031",
+      "zbbm": "Y"
+    },
+    {
+      "name": "倾角",
+      "jcdw": "mm(毫米)",
+      "column": "JCSJ224A032",
+      "zbbm": "Yaw"
+    }
+  ],
+  "225": [
+    {
+      "name": "地表水位",
+      "jcdw": "m(米)",
+      "column": "JCSJ225A030",
+      "zbbm": "value"
+    }
+  ],
+  "900": [
+    {
+      "name": "视频监测"
+    }
+  ],
+  "L1LF": [{
+      "name": "裂缝",
+      "indexCode": "value",
+      "unit": "mm（毫米）"
+    }],
+  "L1GP":[{
+    "name": "地表位移",
+    "indexCode": "gpsTotalX",
+    "unit": "mm（毫米）"
+  },{
+    "name": "地表位移",
+    "indexCode": "gpsTotalY",
+    "unit": "mm（毫米）"
+  },{
+    "name": "地表位移",
+    "indexCode": "gpsTotalZ",
+    "unit": "mm（毫米）"
+  }],
+  "L1SW": [{
+    "name": "深部位移",
+    "indexCode": "dispsX",
+    "unit": "mm（毫米）"
+  }, {
+    "name": "深部位移",
+    "indexCode": "dispsY",
+    "unit": "mm（毫米）"
+  }],
+  "L1JS":[{
+    "name": "加速度",
+    "indexCode": "gX",
+    "unit": "mg（加速度）"
+  },{
+    "name": "加速度",
+    "indexCode": "gY",
+    "unit": "mg（加速度）"
+  },{
+    "name": "加速度",
+    "indexCode": "gZ",
+    "unit": "mg（加速度）"
+  }],
+  "L1QJ":[{
+    "name": "倾角",
+    "indexCode": "X",
+    "unit": "°（度）"
+  },{
+    "name": "倾角",
+    "indexCode": "Y",
+    "unit": "mm（瞬间位 移）"
+  },{
+    "name": "倾角",
+    "indexCode": "Z",
+    "unit": "°（度）"
+  },{
+    "name": "倾角",
+    "indexCode": "angle",
+    "unit": "°（度）"
+  },{
+    "name": "倾角",
+    "indexCode": "trend",
+    "unit": "°（度）"
+  }],
+  "L1ZD":[{
+    "name": "振动",
+    "indexCode": "PLX",
+    "unit": "Hz（赫兹）"
+  },{
+    "name": "振动",
+    "indexCode": "PLY",
+    "unit": "Hz（赫兹）"
+  },{
+    "name": "振动",
+    "indexCode": "PLZ",
+    "unit": "Hz（赫兹）"
+  },{
+    "name": "振动",
+    "indexCode": "value",
+    "unit": "mm（振幅）"
+  },{
+    "name": "振动",
+    "indexCode": "SJX",
+    "unit": "mm（瞬间位移）"
+  },{
+    "name": "振动",
+    "indexCode": "SJY",
+    "unit": "mm（瞬间位移）"
+  },{
+    "name": "振动",
+    "indexCode": "SJZ",
+    "unit": "mm（瞬间位移）"
+  },{
+    "name": "振动",
+    "indexCode": "SJValue",
+    "unit": "mm（瞬间位移）"
+  }],
+  "L2YL": [{
+    "name": "应力",
+    "indexCode": "value",
+    "unit":"kN（千牛）"
+  }],
+  "L2TY": [{
+    "name": "土压力",
+    "indexCode": "value",
+    "unit":"kPa（千帕）"
+  }],
+  "L2CS": [{
+    "name": "次声",
+    "indexCode": "OSP",
+    "unit": "Pa（帕）"
+  }, {
+    "name": "次声",
+    "indexCode": "VSP",
+    "unit": "Pa（帕）"
+  },{
+    "name": "次声",
+    "indexCode": "freq",
+    "unit": "HZ（赫兹）"
+  }, {
+    "name": "次声",
+    "indexCode": "wave",
+    "unit": ""
+  }],
+  "L2DS": [{
+    "name": "地声",
+    "indexCode": "OSP",
+    "unit": "Pa（帕）"
+  }, {
+    "name": "地声",
+    "indexCode": "VSP",
+    "unit": "Pa（帕）"
+  },{
+    "name": "地声",
+    "indexCode": "freq",
+    "unit": "HZ（赫兹）"
+  }, {
+    "name": "地声",
+    "indexCode": "wave",
+    "unit": ""
+  }],
+  "L3YL": [{
+      "name": "雨量",
+      "indexCode": "value",
+      "unit": "mm（毫米）"
+    }, {
+      "name": "雨量",
+      "indexCode": "totalValue",
+       "unit": "mm（毫米）"
+    }],
+  "L3QW":[{
+    "name": "气温",
+    "indexCode": "value",
+    "unit": "℃（摄氏度）"
+  }],
+  "L3TW":[{
+    "name": "土壤温度",
+    "indexCode": "value",
+    "unit": "℃（摄氏度）"
+  }],
+  "L3HS":[{
+    "name": "含水率",
+    "indexCode": "value",
+    "unit": "%（百分比）"
+  }],
+  "L3DB":[{
+    "name": "地表",
+    "indexCode": "temp",
+    "unit": "℃（摄氏度）"
+  },{
+    "name": "地表",
+    "indexCode": "value",
+    "unit": "m（米）"
+  }],
+  "L3DX":[{
+  "name": "地下",
+  "indexCode": "temp",
+  "unit": "℃（摄氏度）"
+  },{
+    "name": "地下",
+    "indexCode": "value",
+    "unit": "m（米）"
+  }],
+  "L3SY":[{
+    "name": "孔隙水",
+    "indexCode": "temp",
+    "unit": "℃（摄氏度）"
+  },{
+    "name": "孔隙水",
+    "indexCode": "value",
+    "unit": "Kpa（千帕）"
+  }],
+  "L3ST":[{
+    "name": "渗透压力",
+    "indexCode": "value",
+    "unit": "Kpa（千帕）"
+  }],
+  "L3LS":[{
+    "name": "流速",
+    "indexCode": "value",
+    "unit": "m/s（米/秒）"
+  }],
+  "L3CJ":[{
+    "name": "沉降",
+    "indexCode": "value",
+    "unit": "mm（毫米）"
+  }],
+  "L3QY":[{
+    "name": "气压",
+    "indexCode": "value",
+    "unit": "Kpa（千帕）"
+  }],
+  "L4NW":[{
+    "name": "泥水位",
+    "indexCode": "value",
+    "unit": "m（米）"
+  }],
+  "L4LD":[{
+    "name": "雷达",
+    "indexCode": "X",
+    "unit": "m（米）"
+  },{
+    "name": "雷达",
+    "indexCode": "Y",
+    "unit": "m（米）"
+  },{
+    "name": "雷达",
+    "indexCode": "Z",
+    "unit": "m（米）"
+  },{
+    "name": "雷达",
+    "indexCode": "Z",
+    "unit": "m（米）"
+  }]
+}
