@@ -14,6 +14,16 @@ public class Weather {
 
     private float humidity;
 
+    private String noString;
+
+    public String getNoString() {
+        return noString;
+    }
+
+    public void setNoString(String noString) {
+        this.noString = noString;
+    }
+
     public Timestamp getTs() {
         return ts;
     }
