@@ -27,11 +27,11 @@ logging:
 # Spring配置
 spring:
   mail:
-    sender: 1361840527@qq.com
+    sender: 邮箱账号
     host: smtp.qq.com
     port: 587
-    username: 1361840527@qq.com
-    password: dzxmnxzbhpqvghhd
+    username: 邮箱账号
+    password: 授权密码
     default-encoding: UTF-8
     properties:
       mail:
